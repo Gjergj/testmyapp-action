@@ -1,0 +1,36 @@
+# IDE directories
+**/.idea
+**.iml
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*.ignore.yaml
+
+# Dependency directories (remove the comment below to include it)
+**/vendor
+
+# Application configuration
+config.yaml
+config.yml
+
+# General ignorable directories
+**/tmp
+**/var
+**/private
+**/.private
+**/docker
+**/bin
+# WIP
+**/lib
+dist/
